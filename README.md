@@ -1,5 +1,5 @@
 # Migration of private repos to public - Partial list
-## Architecture
+## Architecture & Design
 - https://www.inkandswitch.com/local-first/
 
 # Tools
