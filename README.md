@@ -4,13 +4,12 @@
 
 - **Remote Access** - SSH/mosh , RDP, VNC (usually use passwords/private key for authentication) #tools/net/remote_access 
 - **VPN Protocols**
-	- [[Wireguard]]
+	- Wireguard
 	- sshuttle/openssh TUN(P2P)
-	- [[OpenVPN]](P2S)
-	- [[IPSec]](S2S)
-	- [SDN Protocols](SDN%20Protocols.md) 
-	- IP Tunneling/SIT ^b12 
-
+	- OpenVPN(P2S)
+	- IPSec(S2S)
+	- SDN Protocols
+	- IP Tunneling/SIT 
 - Proxies
 	 - Reverse(web) proxies 
 		 - nginx  
