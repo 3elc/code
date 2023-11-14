@@ -9,10 +9,10 @@
 
 ### Windows Administration
 ```
-sfc /scannow # check windows for errors
+sfc /scannow # check windows for errors, be careful with this tool.
 ```
 ```
-Powershell Start Notepad.exe -Verb RunAs -ArgumentList "C:\\Windows\\System32\\drivers\\etc\\hosts"
+Powershell Start Notepad.exe -Verb RunAs -ArgumentList "C:\\Windows\\System32\\drivers\\etc\\hosts" # edit hosts, be careful.
 ```
 ```
  New-Object System.Net.Sockets.TcpClient("192.168.0.6", 3389)
