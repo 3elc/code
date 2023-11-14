@@ -12,7 +12,7 @@
 sfc /scannow # check windows for errors
 ```
 ```
-Powershell Start Notepad.exe -ArgumentList "C:\\Windows\\System32\\drivers\\etc\\hosts"
+Powershell Start Notepad.exe -Verb RunAs -ArgumentList "C:\\Windows\\System32\\drivers\\etc\\hosts"
 ```
 ```
  New-Object System.Net.Sockets.TcpClient("192.168.0.6", 3389)
