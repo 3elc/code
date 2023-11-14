@@ -1,6 +1,27 @@
-# Migration of private repos to public
+# Migration of private repos to public - Partial list
+
 
 # Tools
+## Defence & Threat Hunting
+
+- IPS & IDS
+	- Zeek
+	- Snort
+	- Suricata
+
+- Threat hunting
+ 	- Sigma
+  	- Yara
+	- ssdeep
+	- APTSimulator
+
+- EDRs - MDFI, Crowdstrike
+
+- Forensics
+	- Sleuth kit 
+	- Volatility
+
+
 ## Computer Networks
 - **Common Protocols Implementations**
 	- NAT & DHCP - ICS, dhcpcd(ISC DHCP), dnsmas
