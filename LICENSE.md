@@ -1,5 +1,5 @@
-
-
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png"/></a><br>
+licensed Under the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International  (CC BY-NC-ND 4.0)</a>.
 
 Human Readable: https://creativecommons.org/licenses/by-nc-nd/4.0/
 ## creative commons
