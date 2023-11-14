@@ -2,6 +2,8 @@
 
 
 # Tools
+## Penetration Testing
+
 ## Defence & Threat Hunting
 
 - IPS & IDS
@@ -43,3 +45,10 @@
 		 - apache
 		 - haproxy
 		 - caddy
+## General
+- **Applications**
+	- **CLI & TUI** - Cmus, Aria2, nnn, ranger
+	- **Collaboration & Session sharing** - Atom share, ttyd
+- **Programming**
+	- Code Editors - Vim, VSCodium, Notepad++, Limetext  
+	- IDEs -
