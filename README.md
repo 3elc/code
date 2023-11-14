@@ -27,7 +27,7 @@
 	- NAT & DHCP - ICS, dhcpcd(ISC DHCP), dnsmas
  	- DNS - BIND(most common, de facto standard), Unbound, Dnsmasq, MS DNS
 
-- **Remote Access** - SSH/mosh , RDP, VNC (usually use passwords/private key for authentication) #tools/net/remote_access 
+- **Remote Access** - SSH/mosh , RDP, VNC (usually use passwords/private key for authentication) 
 
 - **VPN Protocols**
 	- Wireguard
