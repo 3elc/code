@@ -1,4 +1,30 @@
 # Migration of private repos to public - Partial list
+
+## CheatSheet
+
+### Windows Administration
+
+- check windows for errors `sfc /scannow`
+
+- Powershell Start Notepad.exe -ArgumentList "C:\\Windows\\System32\\drivers\\etc\\hosts"
+
+- New-Object System.Net.Sockets.TcpClient("192.168.0.6", 3389)
+ 
+- `Cipher /w:<PATH>` - wipe free space
+
+- encode/decode in base64 : Certutil -encode file outputfile
+
+- `taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>"` - stops ms defender
+
+### Encoding & Cryptography
+
+[System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("H")) #win/ps #base64 
+
+[System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String(SA==')) #win/ps #base64
+
+[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String(SA==')) #win/ps #base64
+
+
 ## Architecture & Design
 - https://www.inkandswitch.com/local-first/
 
