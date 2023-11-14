@@ -25,13 +25,13 @@ taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>" # stops ms defender
 ### Encoding & Cryptography
 
 ```
-[System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("H"))  # base64 
+[System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("H")) 
 ```
 ```
-[System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String(SA==')) # base64
+[System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String(SA=='))
 ```
 ```
-[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String(SA==')) # base64
+[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String(SA=='))
 ```
 
 ## Architecture & Design
