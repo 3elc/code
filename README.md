@@ -12,13 +12,13 @@
 sfc /scannow # check windows for errors, be careful with this tool.
 ```
 ```
-Powershell Start Notepad.exe -Verb RunAs -ArgumentList "C:\\Windows\\System32\\drivers\\etc\\hosts" # edit hosts, be careful.
+Powershell Start Notepad.exe -Verb RunAs -ArgumentList "C:\\Windows\\System32\\drivers\\etc\\hosts" # edits hosts, be careful.
 ```
 ```
  New-Object System.Net.Sockets.TcpClient("192.168.0.6", 3389)
 ```
 ```
-Cipher /w:<PATH> # wipe free space
+Cipher /w:<PATH> # wipes free space
 ```
 ```
 Certutil -encode <filepath> <outputfile> # encode/decode in base64
