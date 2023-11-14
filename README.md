@@ -1,6 +1,11 @@
 # Migration of private repos to public - Partial list
 
 ## CheatSheet
+### Shell Enumeration
+```
+(dir 2>&1 *`\|echo CMD);&<# rem #>echo ($PSVersionTable).PSEdition # check if shell is CMD or PS
+```
+
 
 ### Windows Administration
 ```
