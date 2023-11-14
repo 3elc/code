@@ -3,8 +3,10 @@
 ## CheatSheet
 
 ### Windows Administration
+```
+sfc /scannow # check windows for errors
+```
 
-- check windows for errors `sfc /scannow`
 
 - Powershell Start Notepad.exe -ArgumentList "C:\\Windows\\System32\\drivers\\etc\\hosts"
 
