@@ -1,7 +1,11 @@
-<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png"/></a><br>
-licensed Under the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International  (CC BY-NC-ND 4.0)</a>.
+# Disclaimer 
 
-Human Readable: https://creativecommons.org/licenses/by-nc-nd/4.0/
+While the information in this repo probably can't cause harm, it is intended for educational and informational purposes only and shouldn’t be used for any illegal or malicious activities. The information is provided on an "AS IS" basis without any representations or warranties of any kind, express or implied. Any use or reliance you place on this repo is strictly at your own risk and I shall in no event be liable for any loss or form of damage.
+
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png"/></a><br>
+
+Licensed Under the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International  (CC BY-NC-ND 4.0)</a>.
+
 ## creative commons
 
 # Attribution-NonCommercial-NoDerivatives 4.0 International
