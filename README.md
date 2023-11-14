@@ -27,8 +27,12 @@
 
 ## Computer Networks
 - **Common Protocols Implementations**
-	- NAT & DHCP - ICS, dhcpcd(ISC DHCP), dnsmas
- 	- DNS - BIND(most common, de facto standard), Unbound, Dnsmasq, MS DNS
+	- NAT & DHCP
+		- ICS,
+  		- dhcpcd(ISC DHCP)
+    		- dnsmas
+ 	- DNS
+  		- BIND(most common, de facto standard), Unbound, Dnsmasq, MS DNS
 
 - **Remote Access** - SSH/mosh , RDP, VNC (usually use passwords/private key for authentication) 
 
