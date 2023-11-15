@@ -94,6 +94,7 @@ taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>" # stops ms defender
 - **Applications**
 	- **CLI & TUI** - Cmus, Aria2, nnn, ranger
 	- **Collaboration & Session sharing** - Atom share, ttyd
+ 	- **Linux Shells** - sh, xonsh, zsh 
 - **Programming**
 	- Code Editors - Vim, VSCodium, Notepad++, Limetext  
 	- IDEs -
