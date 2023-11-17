@@ -1,5 +1,15 @@
 # Migration of private repos to public - Partial list
 
+
+# RSS
+
+- https://news.ycombinator.com/
+- https://www.darkreading.com/
+- https://thehackernews.com/
+- https://www.digitalwhisper.co.il/
+- https://www.csoonline.com/
+- https://leanpub.com/
+
 ## CheatSheet
 ### Shell Enumeration
 ```
@@ -98,3 +108,4 @@ taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>" # stops ms defender
 - **Programming**
 	- Code Editors - Vim, VSCodium, Notepad++, Limetext  
 	- IDEs -
+
