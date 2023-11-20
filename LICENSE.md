@@ -1,6 +1,8 @@
 # Disclaimer 
 
-While the information in this repo probably can't cause harm, it is intended for educational and informational purposes only and shouldn’t be used for any illegal or malicious activities. The information is provided on an "AS IS" basis without any representations or warranties of any kind, express or implied. Any use or reliance you place on this repo is strictly at your own risk and I shall in no event be liable for any loss or any form of damage.
+While the information in this repo probably can't cause harm, it is intended for educational and informational purposes only, I am not responsible for any actions or consequences resulting from any misuse for illegal, unethical or malicious purposes.
+The information is provided on an "AS IS" basis without any representations or warranties of any kind, express or implied. 
+Any use or reliance you place on this repo is strictly at your own risk and I shall in no event be liable for any loss or any form of damage.
 
 # License
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png"/></a><br>
