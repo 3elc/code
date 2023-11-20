@@ -19,10 +19,10 @@
 
 ### Windows Administration
 ```
-sfc /scannow # check windows for errors, be careful with this tool.
+sfc /scannow &@rem check windows for errors, be careful with this tool.
 ```
 ```
-Powershell Start Notepad.exe -Verb RunAs -ArgumentList "C:\\Windows\\System32\\drivers\\etc\\hosts" # edits hosts, be careful.
+Powershell Start Notepad.exe -Verb RunAs -ArgumentList "C:\\Windows\\System32\\drivers\\etc\\hosts" &@rem edits hosts, be careful.
 ```
 ```
  New-Object System.Net.Sockets.TcpClient("192.168.0.6", 3389)
