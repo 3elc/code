@@ -1,5 +1,7 @@
 # Migration of private repos to public - Partial list
 
+# Resources
+- https://www.hacksplaining.com/owasp
 
 # RSS
 
