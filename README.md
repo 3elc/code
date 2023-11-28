@@ -4,7 +4,7 @@
 - https://www.hacksplaining.com/owasp
 
 # RSS
-
+- https://cyber.bgu.ac.il/advanced-cyber/
 - https://news.ycombinator.com/
 - https://www.darkreading.com/
 - https://thehackernews.com/
@@ -13,41 +13,77 @@
 - https://leanpub.com/
 
 ## CheatSheet
-### Shell Enumeration
+
+### Python
+```python
+import io,sys; b=io.StringIO(); sys.stdout=b;<Command>;out = b.getvalue().splitlines(); sys.stdout=sys.__stdout__
+# alternative way to output stdout to var with sys module.
+```
+
+```python
+exec("import io,contextlib as cl;o=io.StringIO();\nwith cl.redirect_stdout(o):\thelp(\"topics\")")`
+# get stdout from command. exec using stdout might be unsafe especially in production.
+```
+
+### Windows
+
+
+
+#### Shell Enumeration
 ```
 (dir 2>&1 *`\|echo CMD);&<# rem #>echo ($PSVersionTable).PSEdition # check if shell is CMD or PS
 ```
 
 
-### Windows Administration
+#### Windows Administration
+```cmd
+netsh int ip reset  # Reset TCP/IP
+netsh int winsock reset # recover from socket errors, may remove settings
 ```
-sfc /scannow &@rem check windows for errors, be careful with this tool.
+```cmd
+netsh advf set currentprofile state off  # turn firewall off
 ```
+```cmd
+route
+netstat -r # alternative
 ```
+```cmd
+getmac
+```
+```cmd
+netstat -s -p <PROTOCOL> # statistics
+```
+```cmd
+netstat -aonb # socket finding windows
+```
+```powershell
 Powershell Start Notepad.exe -Verb RunAs -ArgumentList "C:\\Windows\\System32\\drivers\\etc\\hosts" &@rem edits hosts, be careful.
 ```
+```cmd
+sfc /scannow &@rem check windows for errors, be careful with this tool.
 ```
+```powershell
  New-Object System.Net.Sockets.TcpClient("192.168.0.6", 3389)
 ```
-```
+```cmd
 Cipher /w:<PATH> # wipes free space
 ```
-```
+```cmd
 Certutil -encode <filepath> <outputfile> # encode/decode in base64
 ```
-```
+```cmd
 taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>" # stops ms defender
 ```
 
-### Encoding & Cryptography
+#### Encoding & Cryptography
 
-```
+```powershell
 [System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("H")) 
 ```
-```
+```powershell
 [System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String('SA=='))
 ```
-```
+```powershell
 [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('SA=='))
 ```
 
