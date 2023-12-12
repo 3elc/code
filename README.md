@@ -14,25 +14,22 @@
 
 ## CheatSheet
 <details>
-	<summary>Python</summary>
+	<summary><h3>Python</h3></summary>
 
 <details>
-	<summary> alternative way to output stdout to var with sys module.</summary>
+	<summary><h4>alternative way to output stdout to var with sys module.</h4></summary>
 
 ```python
 import io,sys; b=io.StringIO(); sys.stdout=b;<Command>;out = b.getvalue().splitlines(); sys.stdout=sys.__stdout__
 ```
-
-
+</details>
 <details>
-	<summary>get stdout from command. exec using stdout</summary>
+	<summary><h4>get stdout from command. exec using stdout</h4></summary>
 
 ```python
 exec("import io,contextlib as cl;o=io.StringIO();\nwith cl.redirect_stdout(o):\thelp(\"topics\")")`
 # might be unsafe especially in production.
 ```
-
-</details>
 </details>
 </details>
 
