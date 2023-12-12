@@ -13,17 +13,28 @@
 - https://leanpub.com/
 
 ## CheatSheet
+<details>
+	<summary>Python</summary>
 
-### Python
+<details>
+	<summary> alternative way to output stdout to var with sys module.</summary>
+
 ```python
 import io,sys; b=io.StringIO(); sys.stdout=b;<Command>;out = b.getvalue().splitlines(); sys.stdout=sys.__stdout__
-# alternative way to output stdout to var with sys module.
 ```
+
+
+<details>
+	<summary>get stdout from command. exec using stdout</summary>
 
 ```python
 exec("import io,contextlib as cl;o=io.StringIO();\nwith cl.redirect_stdout(o):\thelp(\"topics\")")`
-# get stdout from command. exec using stdout might be unsafe especially in production.
+# might be unsafe especially in production.
 ```
+
+</details>
+</details>
+</details>
 
 ### Windows
 
