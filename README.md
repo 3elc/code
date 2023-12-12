@@ -1,9 +1,15 @@
 # Migration of private repos to public - Partial list
 
 # Resources
-- https://www.hacksplaining.com/owasp
 
-# RSS
+<details>
+	<summary><h2>Learning</h2></summary>
+	
+- https://www.hacksplaining.com/owasp
+</details>
+<details>
+	<summary><h2>RSS</h2></summary>
+	
 - https://cyber.bgu.ac.il/advanced-cyber/
 - https://news.ycombinator.com/
 - https://www.darkreading.com/
@@ -11,6 +17,7 @@
 - https://www.digitalwhisper.co.il/
 - https://www.csoonline.com/
 - https://leanpub.com/
+</details>
 
 ## CheatSheet
 <details>
