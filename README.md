@@ -34,13 +34,14 @@ exec("import io,contextlib as cl;o=io.StringIO();\nwith cl.redirect_stdout(o):\t
 </details>
 <details>
 	<summary><h3>Windows</h3></summary>
-
-#### Shell Enumeration
+<details>
+	<summary><h4>Shell Enumeration</h4></summary>
 ```
 (dir 2>&1 *`\|echo CMD);&<# rem #>echo ($PSVersionTable).PSEdition # check if shell is CMD or PS
 ```
-
-
+</details>
+<details>
+	<summary><h4>Windows Administration</h4></summary>
 #### Windows Administration
 ```cmd
 netsh int ip reset  # Reset TCP/IP
