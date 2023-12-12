@@ -22,6 +22,7 @@
 ```python
 import io,sys; b=io.StringIO(); sys.stdout=b;<Command>;out = b.getvalue().splitlines(); sys.stdout=sys.__stdout__
 ```
+
 </details>
 <details>
 	<summary><h4>get stdout from command. exec using stdout</h4></summary>
@@ -36,13 +37,15 @@ exec("import io,contextlib as cl;o=io.StringIO();\nwith cl.redirect_stdout(o):\t
 	<summary><h3>Windows</h3></summary>
 <details>
 	<summary><h4>Shell Enumeration</h4></summary>
-```
+	
+```cmd
 (dir 2>&1 *`\|echo CMD);&<# rem #>echo ($PSVersionTable).PSEdition # check if shell is CMD or PS
 ```
+
 </details>
 <details>
 	<summary><h4>Windows Administration</h4></summary>
-#### Windows Administration
+
 ```cmd
 netsh int ip reset  # Reset TCP/IP
 netsh int winsock reset # recover from socket errors, may remove settings
@@ -81,8 +84,9 @@ Certutil -encode <filepath> <outputfile> # encode/decode in base64
 ```cmd
 taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>" # stops ms defender
 ```
-
-#### Encoding & Cryptography
+</details>
+<details>
+	<summary><h4>Encoding & Cryptography</h4></summary>
 
 ```powershell
 [System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("H")) 
@@ -94,6 +98,7 @@ taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>" # stops ms defender
 [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('SA=='))
 ```
 </details>
+</details>
 
 ## Architecture & Design
 - https://www.inkandswitch.com/local-first/
@@ -102,17 +107,19 @@ taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>" # stops ms defender
 ## Penetration Testing
 
 ## Defence & Threat Hunting
-
-- IPS & IDS
+<details>
+	<summary>IPS & IDS</summary>
 	- Zeek
 	- Snort
 	- Suricata
-
-- Threat hunting
- 	- Sigma
-  	- Yara
+</details>
+<details>
+	<summary>Threat hunting</summary>
+	- Sigma
+	- Yara
 	- ssdeep
 	- APTSimulator
+</details>
 
 - EDRs - MDFI, Crowdstrike
 
@@ -122,14 +129,16 @@ taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>" # stops ms defender
 
 
 ## Computer Networks
-- **Common Protocols Implementations**
+- <details>
+	<summary><b>Common Protocols Implementations</b></summary>
+	
 	- NAT & DHCP
 		- ICS,
   		- dhcpcd(ISC DHCP)
     		- dnsmas
  	- DNS
   		- BIND(most common, de facto standard), Unbound, Dnsmasq, MS DNS
-
+</details>
 - **Remote Access** - SSH , RDP, VNC (usually use passwords/private key for authentication) 
 
 - **VPN Protocols**
