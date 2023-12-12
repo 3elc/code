@@ -32,10 +32,8 @@ exec("import io,contextlib as cl;o=io.StringIO();\nwith cl.redirect_stdout(o):\t
 ```
 </details>
 </details>
-
-### Windows
-
-
+<details>
+	<summary><h3>Windows</h3></summary>
 
 #### Shell Enumeration
 ```
@@ -94,6 +92,7 @@ taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>" # stops ms defender
 ```powershell
 [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('SA=='))
 ```
+</details>
 
 ## Architecture & Design
 - https://www.inkandswitch.com/local-first/
