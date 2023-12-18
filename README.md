@@ -119,16 +119,20 @@ taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>" # stops ms defender
 ## Defence & Threat Hunting
 <details>
 	<summary>IPS & IDS</summary>
+	
 	- Zeek
 	- Snort
 	- Suricata
 </details>
+
 <details>
 	<summary>Threat hunting</summary>
+	
 	- Sigma
 	- Yara
 	- ssdeep
 	- APTSimulator
+ 
 </details>
 
 - EDRs - MDFI, Crowdstrike
