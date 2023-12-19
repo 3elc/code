@@ -27,6 +27,13 @@
 	<summary><h3>Python</h3></summary>
 
 <details>
+	<summary><h4>alternative way to search module name</h4></summary>
+
+```python
+<code>
+```
+</details>
+<details>
 	<summary><h4>alternative way to output stdout to var with sys module.</h4></summary>
 
 ```python
