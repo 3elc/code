@@ -30,7 +30,7 @@
 	<summary><h4>alternative way to search module name</h4></summary>
 
 ```python
-<code>
+import sys;[m for m in sys.stdlib_module_names if "<name>" in m]  # search module name
 ```
 </details>
 <details>
