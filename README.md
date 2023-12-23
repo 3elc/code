@@ -51,6 +51,19 @@ exec("import io,contextlib as cl;o=io.StringIO();\nwith cl.redirect_stdout(o):\t
 </details>
 </details>
 <details>
+	<summary><h3>Linux</h3></summary>
+	
+<details>
+	<summary><h4>Administration</h4></summary>
+
+```zsh
+&
+```
+
+</details>
+</details>
+
+<details>
 	<summary><h3>Windows</h3></summary>
 <details>
 	<summary><h4>Shell Enumeration</h4></summary>
