@@ -57,7 +57,8 @@ exec("import io,contextlib as cl;o=io.StringIO();\nwith cl.redirect_stdout(o):\t
 	<summary><h4>Administration</h4></summary>
 
 ```zsh
-&
+dhclient -r eth renew # or release
+dhcpcd # dhcp
 ```
 
 </details>
