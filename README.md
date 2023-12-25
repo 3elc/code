@@ -48,8 +48,12 @@
   		- Interpreter - translates commands to bytecode and executes them
 	 	- Python ignores empty lines, it uses tabs or 4 spaces for indention.
    		- `main()` - a special function, used as starting point of execution when the script is run directly. won't run when imported.
-
-	- Variable handling``
+		- float inaccuracy - computers represent float with finite amount of bits, results in tiny differences between saved with errors growing bigger with more float calculations.
+	- Operators
+		- Common logical operators - AND(**1 True**), OR(**3 True**), **XOR(True when different)**
+		- identity - `is` - if **memory addresses** are identical 
+		- Equality - `==` - **value inside** memory addresses
+	- Variable handling
 		- **assignment** - assigns value to a variable using a **new pointer**. for **mutable** and **immutables**.
 		- **value change** - changes the value **inside** a **memory address**, only for **mutables.**
 	- Security Risks
