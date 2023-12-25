@@ -27,6 +27,15 @@
 	<summary><h3>Python</h3></summary>
 
 <details>
+	<summary><h4>Features</h4></summary>
+	<details open><summary><h5>blabla</h5></summary>
+	</details>
+</details>
+<details>
+	<summary><h4>Features</h4></summary>
+</details>
+
+<details>
 	<summary><h4>alternative way to search module name</h4></summary>
 
 ```python
