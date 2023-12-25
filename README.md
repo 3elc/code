@@ -9,7 +9,8 @@
 	<summary><h2>Learning</h2></summary>
 	
 - https://www.hacksplaining.com/owasp
-</details>
+	</details>
+
 <details>
 	<summary><h2>RSS</h2></summary>
 	
@@ -20,45 +21,68 @@
 - https://www.digitalwhisper.co.il/
 - https://www.csoonline.com/
 - https://leanpub.com/
-</details>
+	</details>
 
-## CheatSheet
+# CheatSheet
+
 <details>
 	<summary><h3>Python</h3></summary>
 
 <details>
-	<summary><h4>Features</h4></summary>
-	<details open><summary><h5>blabla</h5></summary>
+	<summary><h4>General</h4></summary>
+
+  <details open>
+    <summary><h5>Features</h5></summary>
+ 
+- **`python.exe`** - console(terminal) app for **CLI** Scripts
+- **`pythonw.exe`** - GUI app for **GUI/No UI** scripts
 	</details>
-</details>
-<details>
-	<summary><h4>Features</h4></summary>
+  
+  <details open>
+	<summary><h5>Language Behaviour</h5></summary>
+
+- General
+ 	- Every statement Ends with a NEWLINE. **Everything is a statement.**  
+	- Default  Python Character Encoding - **UTF-8** 
+ 	- Python ignores empty lines, it uses tabs or 4 spaces for indention.
+- Variable handling
+	- **assignment** - assigns value to a variable using a **new pointer**. for **mutable** and **immutables**.
+	- **value change** - changes the value **inside** a **memory address**, only for **mutables.**
+- Security Risks
+	- Difference between modules:	
+		- **os.system** --> injects a shell and runs the command in it, security risk for **shell injections**.
+		- **Subprocess.call** --> spawns a process and runs the command.
+	- String Formatting might introduce security vulnerabilities, template strings are safer and are best for user-supplied strings.
+ 	- exec() - vulnerable when the code running inside it is external or untrusted/changeable by the user.
+  </details>
 </details>
 
-<details>
+  <details>
 	<summary><h4>alternative way to search module name</h4></summary>
 
 ```python
 import sys;[m for m in sys.stdlib_module_names if "<name>" in m]  # search module name
 ```
-</details>
-<details>
+  </details>
+
+  <details>
 	<summary><h4>alternative way to output stdout to var with sys module.</h4></summary>
 
 ```python
 import io,sys; b=io.StringIO(); sys.stdout=b;<Command>;out = b.getvalue().splitlines(); sys.stdout=sys.__stdout__
 ```
-
-</details>
-<details>
+  </details>
+  <details>
 	<summary><h4>get stdout from command. exec using stdout</h4></summary>
 
 ```python
 exec("import io,contextlib as cl;o=io.StringIO();\nwith cl.redirect_stdout(o):\thelp(\"topics\")")`
 # might be unsafe especially in production.
 ```
+  </details>
+
 </details>
-</details>
+
 <details>
 	<summary><h3>Linux</h3></summary>
 	
