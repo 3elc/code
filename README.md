@@ -33,27 +33,28 @@
 
   <details open>
     <summary><h5>Features</h5></summary>
- 
+
 - **`python.exe`** - console(terminal) app for **CLI** Scripts
 - **`pythonw.exe`** - GUI app for **GUI/No UI** scripts
-	</details>
+
+  </details>
   
   <details open>
 	<summary><h5>Language Behaviour</h5></summary>
 
-- General
- 	- Every statement Ends with a NEWLINE. **Everything is a statement.**  
-	- Default  Python Character Encoding - **UTF-8** 
- 	- Python ignores empty lines, it uses tabs or 4 spaces for indention.
-- Variable handling
-	- **assignment** - assigns value to a variable using a **new pointer**. for **mutable** and **immutables**.
-	- **value change** - changes the value **inside** a **memory address**, only for **mutables.**
-- Security Risks
-	- Difference between modules:	
-		- **os.system** --> injects a shell and runs the command in it, security risk for **shell injections**.
-		- **Subprocess.call** --> spawns a process and runs the command.
-	- String Formatting might introduce security vulnerabilities, template strings are safer and are best for user-supplied strings.
- 	- exec() - vulnerable when the code running inside it is external or untrusted/changeable by the user.
+	- General
+	 	- Every statement Ends with a NEWLINE. **Everything is a statement.**  
+		- Default  Python Character Encoding - **UTF-8** 
+	 	- Python ignores empty lines, it uses tabs or 4 spaces for indention.
+	- Variable handling
+		- **assignment** - assigns value to a variable using a **new pointer**. for **mutable** and **immutables**.
+		- **value change** - changes the value **inside** a **memory address**, only for **mutables.**
+	- Security Risks
+		- Difference between modules:	
+			- **os.system** --> injects a shell and runs the command in it, security risk for **shell injections**.
+			- **Subprocess.call** --> spawns a process and runs the command.
+		- String Formatting might introduce security vulnerabilities, template strings are safer and are best for user-supplied strings.
+	 	- exec() - vulnerable when the code running inside it is external or untrusted/changeable by the user.
   </details>
 </details>
 
