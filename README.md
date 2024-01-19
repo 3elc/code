@@ -34,6 +34,9 @@
 - **`python.exe`** - console(terminal) app for **CLI** Scripts
 - **`pythonw.exe`** - GUI app for **GUI/No UI** scripts
 - General
+	- **`<...>`** = waiting for additional input
+	-  For loop can't be used after a previous statement, only exception is as list comprehension.
+	- importing using `from` might overwrite existing functions with the same name unless using with `as <another_name>`
 	- Every statement Ends with a NEWLINE. **Everything is a statement.**  
 	- Default  Python Character Encoding - **UTF-8**
 	- Interpreter - translates commands to bytecode and executes them
