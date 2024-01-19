@@ -30,26 +30,16 @@
 
 <details>
 	<summary><h4>Features & Behaviour</h4></summary>
-	- **`python.exe`** - console(terminal) app for **CLI** Scripts
-	- **`pythonw.exe`** - GUI app for **GUI/No UI** scripts
-  <details open>
-    <summary><h5>Features</h5></summary>
-
+	
 - **`python.exe`** - console(terminal) app for **CLI** Scripts
 - **`pythonw.exe`** - GUI app for **GUI/No UI** scripts
-
-  </details>
-  
-  <details open>
-	<summary><h5>Language Behaviour</h5></summary>
-
-	- General
-	 	- Every statement Ends with a NEWLINE. **Everything is a statement.**  
-		- Default  Python Character Encoding - **UTF-8**
-  		- Interpreter - translates commands to bytecode and executes them
-	 	- Python ignores empty lines, it uses tabs or 4 spaces for indention.
-   		- `main()` - a special function, used as starting point of execution when the script is run directly. won't run when imported.
-		- float inaccuracy - computers represent float with finite amount of bits, results in tiny differences between saved with errors growing bigger with more float calculations.
+- General
+	- Every statement Ends with a NEWLINE. **Everything is a statement.**  
+	- Default  Python Character Encoding - **UTF-8**
+	- Interpreter - translates commands to bytecode and executes them
+	- Python ignores empty lines, it uses tabs or 4 spaces for indention.
+	- `main()` - a special function, used as starting point of execution when the script is run directly. won't run when imported.
+	- float inaccuracy - computers represent float with finite amount of bits, results in tiny differences between saved with errors growing bigger with more float calculations.
 	- Operators
 		- Common logical operators - AND(**1 True**), OR(**3 True**), **XOR(True when different)**
 		- identity - `is` - if **memory addresses** are identical 
@@ -63,9 +53,7 @@
 			- **Subprocess.call** --> spawns a process and runs the command.
 		- String Formatting might introduce security vulnerabilities, template strings are safer and are best for user-supplied input.
 	 	- exec() - vulnerable when the code running inside it is external or untrusted/changeable by the user.
-  </details>
 </details>
-
   <details>
 	<summary><h4>alternative way to search module name</h4></summary>
 
