@@ -29,8 +29,9 @@
 	<summary><h3>Python</h3></summary>
 
 <details>
-	<summary><h4>General</h4></summary>
-
+	<summary><h4>Features & Behaviour</h4></summary>
+	- **`python.exe`** - console(terminal) app for **CLI** Scripts
+	- **`pythonw.exe`** - GUI app for **GUI/No UI** scripts
   <details open>
     <summary><h5>Features</h5></summary>
 
