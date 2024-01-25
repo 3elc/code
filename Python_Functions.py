@@ -29,7 +29,8 @@ def md_input(path):
 
 
 
-def decrypt_pdfs(paths,
+def decrypt_pdfs(paths,PASSLIST)
+  """
   from pypdf import PdfWriter, PdfReader
   PASSLIST = input("enter path: ")
   for file in paths:
@@ -38,7 +39,7 @@ def decrypt_pdfs(paths,
       content = PdfWriter()
       for i in file.pages:
         content.addpage(i)
-      for i in "blabla","123","5453":       
+      for i in PASSLIST:       
         pass
         with open(file, "wb") as out_stream: pass
 
