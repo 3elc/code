@@ -5,11 +5,16 @@
 
 # Resources
 
+<details><summary><h2>Toggle me!</h2></summary>Peek a boo!</details>
+
 <details>
-	<summary><h2>Learning</h2></summary>
-	
+	<summary>
+		<h2>Learning</h2>
+	</summary>
+
+</details>
+
 - https://www.hacksplaining.com/owasp
-	</details>
 
 <details>
 	<summary><h2>RSS</h2></summary>
