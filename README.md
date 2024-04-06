@@ -236,3 +236,10 @@ taskkill /f /t /im "<MSASCuiL.exe/MSASCui.exe>" # stops ms defender
 - **Programming**
 	- Code Editors - Vim, VSCodium, Notepad++, Limetext  
 	- IDEs 
+## Tools 
+<details>
+	<summary><h3>Forensics</h3></summary>
+https://tsurugi-linux.org/
+https://csilinux.com/csi-linux-downloads/
+https://ekristen.github.io/cast/#what-is-a-cast-distro
+</details>
